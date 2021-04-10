@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent_Black_50">#80000000</color>
+    <color name="transparent_Black_40">#66000000</color>
+    <color name="transparent_Black_30">#4d000000</color>
+    <color name="transparent_Black_15">#26000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ColorLightBlue">#33b5e5</color>
+
+    <color name="black_color">#000000</color>
+    <color name="colorPrimary">#002142</color>
+    <color name="colorPrimaryDark">#002142</color>
+    <color name="colorAccent">#002142</color>
+    <color name="colorStatusLogin">#0e56a0</color>
+
+
+    <color name="colorgreen">#0f2131</color>
+    <color name="colorsplash">#0f2131</color>
+
+    <color name="Coloractivity_bg">#eeeeee</color>
+    <!-- <color name="ColorAppTheme">#003462</color> -->
+    <color name="ColorWhite">#ffffff</color>
+    <color name="Color_Secondary_Font">#7f7f7f</color>
+    <color name="transparent_black_color2">#40000000</color>
+    <color name="transparent_black_color">#80000000</color>
+    <color name="transparent_gray">#ededed</color>
+
+    <color name="ColorTumbnailbg">#f4f2f2</color>
+
+    <color name="text_primary_dark">#626366</color>
+    <color name="text_primary_light">#828282</color>
+    <color name="text_secondary_light">#7f7f7f</color>
+
+    <color name="bg_album">#cfd8ed</color>
+    <color name="bg_mainmenu">#d7eafd</color>
+    <color name="bg_cardviewbackground">#2168b1</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+
+    <color name="transparent_white_color2">#80ffffff</color>
+    <color name="transparent_white_color">#1Affffff</color>
+    <color name="transparent_color_white">#F2ffffff</color>
+    <color name="ColorUnselectTab">#b7b7b7</color>
+    <color name="Color_Menu_Thumb_Font">#565656</color>
+    <color name="redColor">#e84b43</color>
+
+    <color name="color1">#e05b49</color>
+    <color name="color2">#45b39c</color>
+    <color name="color3">#e27c3e</color>
+    <color name="color4">#405561</color>
+    <color name="color5">#deb121</color>
+    <color name="color6">#2ca5d5</color>
+    <color name="color7">#e37f89</color>
+    <color name="color8">#f4971e</color>
+    <color name="color9">#3a5ba0</color>
+    <color name="color10">#84bcc1</color>
+    <color name="color11">#abc124</color>
+    <color name="color12">#7d5eb6</color>
+
+    <color name="blue">#0000FF</color>
+
+    <color name="Color_green_popup_material">#00695C</color>
+    <color name="list_bg_purple">#4f3278</color>
+    <color name="list_bg_orange">#ee8c01</color>
+    <color name="list_bg_Yellow">#ff7668</color>
+    <color name="list_bg_Green">#54ab3c</color>
+    <color name="list_bg_Blue">#1896be</color>
+    <color name="list_bg_Gray">#506078</color>
+    <color name="list_bg_Black">#f06393</color>
+    <color name="list_bg_DarkOrange">#cf6b70</color>
+    <color name="list_bg_DarkBlue">#1d358b</color>
+    <color name="transparent_purple">#804f3278</color>
+    <color name="transparent_orange">#80ab5548</color>
+    <color name="transparent_Yellow">#80ad9849</color>
+    <color name="transparent_Green">#8069742f</color>
+    <color name="transparent_Blue">#801896be</color>
+    <color name="transparent_Gray">#80506078</color>
+    <color name="transparent_Black">#80121212</color>
+    <color name="transparent_DarkOrange">#80da783b</color>
+    <color name="transparent_DarkBlue">#801d358b</color>
+    <color name="colornotelbl">#005da3</color>
+    <color name="Color_Menu_Thumb_Hover">#dcdcdc</color>
+    <color name="fake_msg_popup_color">#555555</color>
+    <color name="text2_color_transparent">#BF999999</color>
+    <color name="text2_color_transparent_2">#80999999</color>
+    <color name="text2_color">#999999</color>
+
+    <color name="transparent_Black_95">#f2000000</color>
+
+    <color name="sharp_green_color">#2ee11e</color>
+    <color name="sidemenu_list_text_color">#666666</color>
+    <array name="colorMainFeature">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+    </array>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

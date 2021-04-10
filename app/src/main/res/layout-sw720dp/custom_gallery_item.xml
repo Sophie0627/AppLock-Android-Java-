@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/ll_custom_gallery"
+    android:layout_height="220dp" >
+
+    <ImageView
+        android:id="@+id/thumbImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:paddingBottom="1dip"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:paddingTop="1dip"
+        android:background="@drawable/photo_empty_icon"
+        android:scaleType="fitXY"/>
+    
+    <LinearLayout 
+      	android:id="@+id/ll_dark_on_click"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_marginRight="2dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginTop="1dip"
+        android:orientation="vertical"
+        >
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/playthumbImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="4dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingTop="4dip" />
+    
+     <ImageView
+        android:id="@+id/iv_tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_mark"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+    
+
+</RelativeLayout>

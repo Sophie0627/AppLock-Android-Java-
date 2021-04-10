@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="hack_attempts"
+        android:title="@string/lbl_more_Hack_Attempts"
+        android:icon="@drawable/intruder">
+    </Preference>
+
+    <!--<Preference-->
+        <!--android:key="our_apps"-->
+        <!--android:title="@string/lbl_OurApps"-->
+        <!--android:icon="@drawable/mobile_products_icon">-->
+    <!--</Preference>-->
+
+    <!--<Preference-->
+        <!--android:key="desktop_apps"-->
+        <!--android:title="@string/lbldextopproducts"-->
+        <!--android:icon="@drawable/desktop_products_icon">-->
+    <!--</Preference>-->
+
+    <!--<Preference-->
+        <!--android:key="license"-->
+        <!--android:title="@string/license"-->
+        <!--android:icon="@drawable/license_icon">-->
+    <!--</Preference>-->
+
+    <Preference
+        android:key="about"
+        android:title="@string/lblabout"
+        android:icon="@drawable/about">
+    </Preference>
+
+
+
+</PreferenceScreen>

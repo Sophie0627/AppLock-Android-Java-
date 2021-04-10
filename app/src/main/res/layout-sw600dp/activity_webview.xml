@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+   <com.protect.bit.privatebrowser.AnimatedProgressBar
+             android:id="@+id/progress_view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            custom:backgroundColor="#00000000"
+            custom:bidirectionalAnimate="false"
+            custom:progressColor="#00b374">
+
+   </com.protect.bit.privatebrowser.AnimatedProgressBar>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@drawable/slider_background"-->
+        <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/toolbar_bg"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/back_icon"
+            />
+
+        <TextView
+            android:id="@+id/siteName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/app_name"
+            android:textSize="@dimen/_17sdp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/ColorWhite"
+            />
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="35dp">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/ic_menu_camera" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/ic_menu_camera" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/ic_menu_camera" />-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/ic_menu_camera" />-->
+        <!--</LinearLayout>-->
+
+    </RelativeLayout>
+
+  		 <FrameLayout
+            android:id="@+id/webViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+           <!---->
+              <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+              
+              <LinearLayout 
+            android:id="@+id/ll_noInternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+                  
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:src="@drawable/ic_menu_camera"
+                      />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:gravity="center"
+            android:text="no_internet"
+            
+            />
+              </LinearLayout>
+          </FrameLayout>
+ 	<FrameLayout
+            android:id="@+id/customViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+      </FrameLayout>
+</LinearLayout>

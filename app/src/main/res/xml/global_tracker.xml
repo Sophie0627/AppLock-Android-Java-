@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- <screenName name="com.google.android.gms.analytics.samples.mobileplayground.ScreenviewFragment">ScreenViewSampleScreen</screenName>
+    <screenName name="com.google.android.gms.analytics.samples.mobileplayground.EcommerceFragment">EcommerceSampleScreen</screenName>
+		 -->
+    <string name="ga_trackingId">UA-70467364-5</string>
+    <!--<string name="ga_trackingId">UA-70467364-8</string> FL Test-->
+
+
+    <screenName name="com.bitprotect.vaultencryptor.audio.AudioActivity">Audio Play List</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.photos.Photos_Gallery_Actitvity">Photos Gallery</screenName>
+    <screenName name="net.bitprotect.notes.NotesFilesActivity">Notes Folder</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.miscellaneous.MiscellaneousFolderActivity">Miscellaneous</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.wallets.WalletsFolderActivity">Wallets</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.gallery.GalleryActivity">Gallery Photo View</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.videos.Videos_Gallery_Actitvity">Videos Gallery</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.documents.DocumentsActivity">Documents Folder</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.documents.DocumentsFolderActivity">Documents</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.audio.AudioPlayListActivity">Audio</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.MainActivity">MainActivity</screenName>
+    <screenName name="net.bitprotect.notes.NotesFoldersActivity">Notes</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.wallets.WalletActivity">Wallet Folder</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.photos.NewFullScreenViewActivity">Photos_View</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.videos.VideosAlbumActivty">Videos</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.photos.PhotosAlbumActivty">Photos</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.miscellaneous.MiscellaneousActivity">Miscellaneous Folder</screenName>
+    <screenName name="com.google.android.gms.ads.AdActivity">Ad Show</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.FolderLockProAdActivity">ProAdActivity</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.LoginActivity">Login Screen</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.LoginPinActivity">Login Pin Screen</screenName>
+    <screenName name="com.bitprotect.vaultencryptor.videos.VideoPlayerAcitivty">Video Player</screenName>
+    <screenName name="net.bitprotect.folderlock_v1.settings.securitylocks.SetPatternActivity">Pattern Set Screen</screenName>
+    <screenName name="net.bitprotect.folderlock_v1.settings.securitylocks.SetPinActivity">Pin Set Screen</screenName>
+    <screenName name="net.bitprotect.folderlock_v1.settings.securitylocks.SetPasswordActivity">Password Set Screen</screenName>
+
+
+
+</resources>

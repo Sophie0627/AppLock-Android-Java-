@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <attr name="arrowBackDrawable" format="integer" />
+    <attr name="arrowForwardDrawable" format="integer" />
+    <attr name="numberColor" format="reference|color" />
+    <attr name="autoCompleteTitleColor" format="reference|color" />
+    <attr name="autoCompleteUrlColor" format="reference|color" />
+    <attr name="listBackground" format="reference|color" />
+    <attr name="progressBackgroundColor" format="color" />
+    <attr name="searchBackground" format="reference|color" />
+    <attr name="toolbarSettingsBackground" format="reference|color" />
+    <attr name="invertColorDrawable" format="integer" />
+    <attr name="textSizeDrawable" format="integer" />
+    <attr name="drawerBackground" format="reference|color" />
+    <attr name="plusDrawable" format="reference|color" />
+    <attr name="deleteDrawable" format="reference|color" />
+    <attr name="starDrawable" format="reference|color" />
+    <attr name="tabDrawable" format="reference|color" />
+    <attr name="dividerColor" format="reference|color" />
+    <attr name="selectedBackground" format="reference|color" />
+ 
+    <declare-styleable name="AnimatedProgressBar">
+        <attr name="progressColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="bidirectionalAnimate" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+
+</resources>

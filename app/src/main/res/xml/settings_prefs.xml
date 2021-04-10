@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Data">
+
+        <Preference
+            android:key="data_recovery"
+            android:title="@string/lbl_data_recovery"
+            android:summary="@string/lbl_data_recovery_desc"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="cloud_backup"
+            android:title="@string/lbl_cloud_backup_title"
+            android:summary="@string/lblclouddesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="storage_options"
+
+            android:title="@string/lblsetting_StorageOptions"
+            android:summary="@string/lblsetting_StorageOptionsDesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Security">
+
+        <Preference
+            android:key="login_options"
+            android:title="@string/lblLoginOptions"
+            android:summary="@string/lblLoginOptionsDesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="fingerprint"
+            android:title="Fingerprint Lock"
+            android:summary="Enable fingerprint lock"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="recovery_locks"
+            android:title="@string/lblsetting_RecoveryofCredentials"
+            android:summary="@string/lblsetting_RecoveryofCredentialsDesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="panic_switch"
+            android:title="@string/lbl_folderlockpro_feature_PanicSwitch"
+            android:summary="@string/lblpanic_switchdesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+
+
+        <Preference
+            android:key="decoy_password"
+            android:title="@string/lbldecoypasswordhead"
+            android:summary="@string/lbldecoypassworddesc"
+            android:icon="@drawable/about">
+        </Preference>
+
+        <Preference
+            android:key="stealth_mode"
+            android:title="@string/lblsetting_StealthMode"
+            android:summary="@string/lblstealth_mode_main_des"
+            android:icon="@drawable/about">
+        </Preference>
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

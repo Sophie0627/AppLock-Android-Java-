@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/ll_background"
+    android:background="@color/Coloractivity_bg"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_sb_top_baar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            >
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:background="@drawable/selector_blue_fg_dark_bg"-->
+
+                <!--&gt;-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="@dimen/_20sdp"-->
+                    <!--android:layout_height="@dimen/_20sdp"-->
+                    <!--android:layout_marginLeft="@dimen/_4sdp"-->
+                    <!--android:background="@drawable/logout"-->
+                    <!--android:onClick="btnBrowserExit" />-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txturl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/text_primary_dark"
+                    android:completionThreshold="1"
+                    android:dropDownHeight="wrap_content"
+                    android:imeOptions="actionGo"
+                    android:inputType="textUri"
+                    android:text="@string/website"
+                    android:textSize="15sp"
+                    android:background="@drawable/drawable_et_search"
+                    >
+                </AutoCompleteTextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/drop"
+                    android:onClick="btnDropDown" />
+
+                <ImageView
+                    android:id="@+id/iv_settings"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/menu"
+                    android:onClick="settingsMenu"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/ll_Bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_blue_fg_dark_bg"
+            android:gravity="center"
+            android:onClick="BtnBack"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/back3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_blue_fg_dark_bg"
+            android:gravity="center"
+            android:onClick="BtnForward"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/forward3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_blue_fg_dark_bg"
+            android:gravity="center"
+            android:onClick="BtnAddBookMark"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bookmark3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_blue_fg_dark_bg"
+            android:gravity="center"
+            android:onClick="BtnBookMarkHistory"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/booklist3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_blue_fg_dark_bg"
+            android:gravity="center"
+            android:onClick="BtnHistoryClean"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/history3" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/selector_blue_fg_dark_bg"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="BtnDownloadHistory"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingBottom="8dip"-->
+            <!--android:paddingTop="8dip" >-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:src="@drawable/top_download_list_btn" />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--<com.protect.bit.privatebrowser.AnimatedProgressBar-->
+            <!--android:id="@+id/progress_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--custom:backgroundColor="#00000000"-->
+            <!--custom:bidirectionalAnimate="false"-->
+            <!--custom:progressColor="#00b374">-->
+
+        <!--</com.protect.bit.privatebrowser.AnimatedProgressBar>-->
+
+        <WebView
+            android:id="@+id/webviewsecurebrowser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>

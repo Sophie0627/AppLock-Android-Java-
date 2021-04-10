@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White">
+    
+    <Button
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/btn_cross_black" />
+    
+    <LinearLayout 
+        android:id="@+id/ll_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_below="@+id/btnDialogCancel"
+        android:orientation="horizontal">
+        
+        
+        
+        <ImageView
+             android:id="@+id/ivemail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="8dip"
+             android:layout_marginTop="5dip"
+             android:layout_marginRight="8dip"
+             android:layout_marginBottom="12dip"
+             android:src="@drawable/popup_thumb_img" />
+        
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+            
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="24dip"
+                android:text="@string/popup_thumb_Lock"
+                android:textStyle="normal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/sidemenu_list_text_color"
+                android:textSize="17sp" />
+            
+            
+	        <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dip"
+	        android:layout_marginBottom="8dip"
+	        android:orientation="horizontal">
+	        
+	            
+        	<CheckBox
+               android:id="@+id/cb_dnt_show"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:button="@drawable/btn_check_box_new"
+               android:focusable="false" />
+        	
+        	 <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dip"
+                android:text="Don't show this message again"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/sidemenu_list_text_color"
+                android:textSize="13sp" />
+            
+            </LinearLayout>
+            
+       </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

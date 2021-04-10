@@ -1,0 +1,241 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="applock.protect.bit.applock">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <!-- Samsung fingerprint permission, only required if you include the Spass module -->
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Samsung fingerprint permission, only required if you include the Spass module -->
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission xmlns:tools="http://schemas.android.com/tools"
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="com.sec.factory.permission.KEYSTRING"/>
+    <uses-permission android:name="com.sec.testingsettings.permission.KEYSTRING"/>
+    <uses-permission android:name="com.sec.android.app.servicemodeapp.permission.KEYSTRING"/>
+    <permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <application
+        android:name=".SocialMediaApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/applock"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applock"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6891479207055462~1767395860"/>
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="applock.protect.bit.applock.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:icon="@drawable/applock"
+            android:theme="@style/ThemeMainWithBgLogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="applock.protect.bit.applock.Security.LoginActivity"
+            android:theme="@style/ThemeNsWithBgLogo">
+        </activity>
+
+        <activity
+            android:name="applock.protect.bit.applock.Security.LoginPinActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNsWithBgLogo" />
+
+        <activity
+            android:name="applock.protect.bit.applock.applock.AppLockActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNsWithBgLogo" />
+
+        <activity
+            android:name="applock.protect.bit.applock.Security.LoginOptionsActivity"
+            android:screenOrientation="portrait" >
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="applock.protect.bit.applock.Security.ConfirmPasswordPinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.ConfirmPatternActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.ConfirmPinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.SecurityLocksActivity"
+            android:screenOrientation="portrait" >
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name="applock.protect.bit.applock.Security.SetPinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.FingerprintActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.SetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.hackattepmts.HackAttemptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNsWithBgLogo"
+            />
+        <activity
+            android:name="applock.protect.bit.applock.hackattepmts.HackAttemptDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.Security.SetPatternActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="applock.protect.bit.applock.applock.UninstallProtectionActivity"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+        <!--android:name=".recoveryofsecuritylocks.RecoveryOfCredentialsActivity"-->
+        <!--android:excludeFromRecents="true"-->
+        <!--android:screenOrientation="portrait" />-->
+
+        <!--<receiver android:name=".RestartSystemService">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+                <!--<action android:name="android.intent.action.QUICKBOOT_POWERON" />-->
+                <!--<action android:name="com.android.restartservice" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <receiver android:name=".applock.FLDeviceAdminReceiver"
+            android:label="@string/action_ok"
+            android:description="@string/about"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".applock.AppLockerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":flappLockProProcess" />
+
+        <receiver android:name=".applock.NewAppInstalledListener">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".applock.AppUninstalledListner">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".applock.RestartAppLockerService">
+            <intent-filter>
+                <action android:name="com.android.restartservice" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".applock.FakeMsgActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:process=":flappLockProProcess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applock.FakeThumbActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:process=":flappLockProProcess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applock.AppLockLoginActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/lbl_folderlockpro_feature_AppLock"
+            android:noHistory="true"
+            android:process=":flappLockProProcess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applock.AppLockPopupShowActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.Transparent" />
+
+        <receiver android:name=".applock.AppLockTimeDelayAlermManager">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <!--<activity-->
+            <!--android:name="applock.protect.bit.applock.securebrowser.SecureBrowserActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:configChanges="orientation|screenSize"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+            <!--<intent-filter android:order="1">-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data-->
+                    <!--android:host="bit.encrypt.com"-->
+                    <!--android:pathPattern="/.*"-->
+                    <!--android:scheme="https" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+    </application>
+</manifest>

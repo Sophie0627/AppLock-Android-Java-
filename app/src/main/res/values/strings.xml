@@ -1,0 +1,1199 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">App Lock Pro®</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="socialmedia">App Lock Pro®</string>
+    <string name="app_facebook">Facebook</string>
+    <string name="app_twitter">Twitter</string>
+    <string name="app_instagram">Instagram</string>
+    <string name="app_youtube">YouTube</string>
+    <string name="app_Linkedin">LinkedIn</string>
+    <string name="app_pinterest">Pinterest</string>
+    <string name="app_yahoo_answer">Yahoo answer</string>
+    <string name="app_google_plus">Google+</string>
+    <string name="app_reddit">Reddit</string>
+    <string name="app_tumblr">Tumblr</string>
+    <string name="app_Dropbox">Dropbox</string>
+    <string name="app_skype">Skype</string>
+    <string name="app_vimeo">Vimeo</string>
+    <string name="app_sound_cloud">SoundCloud</string>
+    <string name="app_deviantArt">DeviantArt</string>
+    <string name="app_path">Path</string>
+    <string name="app_meetup">Meetup</string>
+    <string name="app_imdb">IMDB</string>
+    <string name="app_digg">Digg</string>
+    <!-- <string name="app_baidu">Baidu</string>remove
+    <string name="app_path">Path</string>remove -->
+    <string name="app_meet_me">MeetMe</string>
+    <string name="app_dailymotion">Dailymotion</string>
+    <string name="app_amazon">Amazon</string>
+    <string name="app_ebay">ebay</string>
+    <string name="app_blogger">Blogger</string>
+    <string name="app_docin">docin</string>
+    <string name="app_docstoc">docstoc</string>
+    <string name="app_delicious">Delicious</string>
+    <string name="app_instapaper">instapaper</string>
+    <string name="app_plurk">plurk</string>
+
+    <string name="app_scoop">scoop</string>
+    <string name="app_squidoo">squidoo</string>
+    <string name="app_storify">storify</string>
+    <string name="app_stumbleupon">Stumbleupon</string>
+    <string name="app_Technorati">Technorati</string>
+    <string name="app_folkd">folkd</string>
+    <string name="app_yelp">yelp</string>
+    <string name="app_4shared">4shared</string>
+
+    <string name="app_myspace">Myspace</string>
+
+    <string name="app_vine">Vine</string>
+    <string name="app_ask_fm">Ask.fm</string>
+
+    <string name="app_issuu">issuu</string>
+
+    <string name="app_flickr">Flickr</string>
+    <string name="app_slideshare">slideshare</string>
+    <string name="app_diigo">diigo</string>
+    <string name="app_hi5">Hi5</string>
+    <string name="app_tagged">Tagged</string>
+
+
+    <string name="app_Livejournal">LiveJournal</string>
+    <string name="app_foursquare">Foursquare</string>
+    <string name="app_ezinearticles">Ezine Articles</string>
+
+    <string name="url_vine">https://vine.co/</string>
+    <string name="url_ask_fm">http://m.ask.fm/</string>
+    <string name="url_facebook">http://facebook.com/</string>
+    <string name="url_twitter">https://twitter.com/</string>
+    <string name="url_instagram">https://instagram.com/</string>
+    <string name="url_youtube">http://youtube.com/</string>
+    <string name="url_Linkedin">http://linkedin.com</string>
+    <string name="url_pinterest">https://www.pinterest.com/</string>
+    <string name="url_yahoo_answer">https://answers.yahoo.com/</string>
+    <string name="url_google_plus">https://plus.google.com/</string>
+    <string name="url_reddit">https://m.reddit.com/</string>
+    <string name="url_tumblr">http://tumblr.com</string>
+    <string name="url_myspace">http://myspace.com/</string>
+    <string name="url_skype">http://skype.com/</string>
+    <string name="url_vimeo">http://vimeo.com/</string>
+    <string name="url_sound_cloud">https://soundcloud.com</string>
+    <string name="url_deviantart">http://www.deviantart.com/</string>
+    <string name="url_meetup">http://www.meetup.com</string>
+
+    <string name="url_digg">http://digg.com</string>
+    <string name="url_baidu">www.baidu.com/ </string>
+    <string name="url_path">http://www.path.com</string>
+    <string name="url_meet_me">http://www.meetme.com</string>
+    <string name="url_dailymotion">http://dailymotion.com/</string>
+    <string name="url_amazon">http://amazon.com/</string>
+    <string name="url_ebay">http://ebay.com/</string>
+    <string name="url_blogger">http://blogger.com</string>
+    <string name="url_docin">http://docin.com</string>
+    <string name="url_docstoc">http://docstoc.com</string>
+    <string name="url_delicious">http://delicious.com</string>
+    <string name="url_instapaper">http://instapaper.com</string>
+    <string name="url_plurk">http://plurk.com</string>
+    <string name="url_scoop">http://scoop.it</string>
+    <string name="url_squidoo">http://squidoo.com</string>
+    <string name="url_storify">http://storify.com</string>
+    <string name="url_stumbleupon">http://stumbleupon.com</string>
+    <string name="url_Technorati">http://technorati.com</string>
+    <string name="url_folkd">http://www.folkd.com</string>
+    <string name="url_yelp">http://yelp.com</string>
+    <string name="url_4shared">http://4shared.com/</string>
+
+    <string name="url_Dropbox">http://dropbox.com</string>
+    <string name="url_issuu">http://issuu.com</string>
+
+    <string name="url_flickr">http://flickr.com/</string>
+    <string name="url_slideshare">http://slideshare.com</string>
+    <string name="url_diigo">http://diigo.com</string>
+    <string name="url_hi5">http://www.hi5.com</string>
+    <string name="url_tagged">http://www.tagged.com</string>
+
+
+    <string name="url_Livejournal">http://Livejournal.com</string>
+    <string name="url_foursquare">http://foursquare.com</string>
+    <string name="url_ezine_articles">http://www.ezinearticles.com</string>
+    <string name="url_Skyrock">http://www.skyrock.mobi/</string>
+    <string name="url_Google">https://www.google.com/</string>
+    <string name="url_Box">https://www.box.com/</string>
+    <string name="url_DropBox">https://www.dropbox.com/</string>
+    <string name="url_Travian">http://www.travian.com/</string>
+    <string name="url_SinaWeibo">http://weibo.com/login</string>
+    <string name="url_Odnoklassniki">http://m.ok.ru/</string>
+    <string name="url_WeHeartIt">http://weheartit.com/</string>
+    <string name="url_WAYN">http://www2.wayn.com/</string>
+    <string name="url_mymfb">http://mymfb.com/mobile/</string>
+    <string name="url_medium">https://medium.com/</string>
+    <string name="url_yikyak">http://www.yikyak.com/home</string>
+    <string name="url_periscope.tv">periscope.tv</string>
+    <string name="url_slack">https://slack.com/</string>
+    <string name="url_blab.im">https://blab.com/</string>
+    <string name="url_Gmail">https://www.gmail.com/</string>
+    <string name="url_yahoomail">https://mail.yahoo.com/</string>
+    <string name="url_outlookmail">https://login.live.com/</string>
+    <string name="url_aolmail">https://mail.aol.com</string>
+    <string name="url_Qzone">http://www.qzone.qq.com/</string>
+    <string name="url_MyLife">https://www.mylife.com/</string>
+    <string name="url_Xanga">http://xanga.com/</string>
+    <string name="url_CyWorld">http://m.cyworld.com/</string>
+    <string name="url_Fotolog">http://www.fotolog.net/</string>
+    <string name="url_GaiaOnline">https://www.gaiaonline.com/</string>
+    <string name="url_Wikipedia">http://www.wikipedia.org</string>
+    <string name="url_scribd">http://scribd.com</string>
+    <string name="url_quora">http://quora.com</string>
+    <string name="url_VKontakte">https://m.vk.com</string>
+    <string name="url_9Gag">http://9gag.com/</string>
+    <string name="url_Buzzfeed">http://www.buzzfeed.com/</string>
+    <string name="url_Imgur">http://m.imgur.com/</string>
+    <string name="url_LifeHacker">http://lifehacker.com/</string>
+    <string name="url_netflix">https://www.netflix.com/</string>
+    <string name="url_Classmates">http://www.classmates.com/</string>
+    <string name="url_Badoo">https://m.badoo.com/</string>
+    <string name="url_BlackPlanet">http://www.blackplanet.com/</string>
+    <string name="url_Flixster">http://www.flixster.com/</string>
+    <string name="url_imdb">https://www.imdb.com</string>
+    <string name="url_Twoo">https://m.twoo.com/</string>
+    <string name="url_Last.fm">http://www.last.fm/</string>
+    <!-- new apps names -->
+    <string name="app_wikipedia">Wikipedia</string>
+    <string name="app_scribd">Scribd</string>
+    <string name="app_VKontakte">VKontakte (VK)</string>
+    <string name="app_9Gag">9Gag</string>
+    <string name="app_Buzzfeed">Buzzfeed</string>
+    <string name="app_Imgur">Imgur</string>
+    <string name="app_LifeHacker">Life hacker</string>
+    <string name="app_quora">Quora</string>
+    <string name="app_netflix">netflix</string>
+    <string name="app_Classmates">Classmates</string>
+    <string name="app_Badoo">Badoo</string>
+    <string name="app_BlackPlanet">BlackPlanet</string>
+    <string name="app_Flixster">Flixster</string>
+    <string name="app_Imdb">IMDB</string>
+    <string name="app_Twoo">Twoo</string>
+    <string name="app_Last.fm">Last.fm</string>
+    <string name="app_Qzone">Qzone</string>
+    <string name="app_MyLife">My Life</string>
+    <string name="app_Xanga">Xanga</string>
+    <string name="app_CyWorld">CyWorld</string>
+    <string name="app_Fotolog">Fotolog</string>
+    <string name="app_GaiaOnline">GaiaOnline</string>
+    <string name="app_Skyrock">Skyrock</string>
+    <string name="app_Google">Google</string>
+    <string name="app_Box">Box</string>
+    <string name="app_DropBox">DropBox</string>
+    <string name="app_Travian">Travian</string>
+    <string name="app_SinaWeibo">Sina Weibo</string>
+    <string name="app_Quora">Quora</string>
+    <string name="app_Odnoklassniki">Odnoklassniki</string>
+    <string name="app_WeHeartIt">We Heart It</string>
+    <string name="app_WAYN">WAYN</string>
+    <string name="app_mymfb">mymfb</string>
+    <string name="app_medium">medium</string>
+    <string name="app_yikyak">yikyak</string>
+    <string name="app_periscope.tv">periscope.tv</string>
+    <string name="app_slack">slack</string>
+    <string name="app_blab.im">blab.im</string>
+    <string name="app_Gmail">Gmail</string>
+    <string name="app_yahoomail">yahoo mail</string>
+    <string name="app_outlookmail">outlook mail</string>
+    <string name="app_aolmail">aol mail</string>
+
+
+    <!-- Rate and Review Dialog -->
+    <color name="popup_text_color">#515151</color>
+    <color name="popup_heading_color">#00b374</color>
+    <string name="lbl_rate_heading">Enjoying this app?</string>
+    <string name="lbl_rate_five_star">Rate 5 stars</string>
+    <string name="lbl_later">Later</string>
+    <string name="lbl_rate_desc">Then express your satisfaction by rating this app, rating the app takes few seconds...</string>
+    <string name="lbl_dislike">Dislike</string>
+
+
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="rta_dialog_message">Enjoying this app? Then, express your satisfaction by rating this app, rating the app takes few seconds… but your opinion will be vastly appreciated!</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_cancel">Remind later</string>
+
+
+    <!-- private browser -->
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="download_no_sdcard_dlg_title">No SD card</string>
+    <string name="download_no_sdcard_dlg_msg">USB storage is required to download the file.</string>
+    <string name="download_sdcard_busy_dlg_title">USB storage unavailable</string>
+    <string name="download_sdcard_busy_dlg_msg">The storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="cannot_download">Can only download \"http\" or \"https\" URLs.</string>
+    <string name="action_ok">OK</string>
+    <string name="dialog_download">Do you want to download this file?</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_warning">Warning</string>
+    <string name="action_download">Download</string>
+    <string name="toast_browser_filenotdownload">File not downloaded</string>
+    <string name="toast_browser_filedownloaded">File downloaded</string>
+    <string name="lbl_history_list">History List</string>
+    <string name="website">http://www.google.com</string>
+    <string name="suggestion">Search for</string>
+
+    <string name="save">Save</string>
+    <string name="save_url">Save Url</string>
+    <string name="del_bookmarks">Are you sure you want to delete bookmark(s) ?</string>
+    <string name="del_history">Are you sure you want to delete browsing history ?</string>
+    <string name="del_download_history">Are you sure you want to delete browsing history ?</string>
+
+        <!--test Admob banner id-->
+        <!--<string name="ad_unit_banner">ca-app-pub-6891479207055462/8747414442</string>-->
+
+        <string name="ad_unit_id">ca-app-pub-6891479207055462~4765358283</string>
+
+        <string name="interstitialad_unit_id">ca-app-pub-6891479207055462/5120581506</string>
+
+        <string name="app_name">App Lock Pro</string>
+        <string name="about_app_name">App Lock Pro®</string>
+        <string name="photos">Photos</string>
+        <string name="videos">Videos</string>
+        <string name="gallery">Gallery</string>
+        <string name="audio">Audio</string>
+        <string name="createcontacts">Create Contacts</string>
+        <string name="editcontacts">Edit Contacts</string>
+        <string name="wallets">Wallets</string>
+        <string name="notes">Notes</string>
+        <string name="version">Version 1.0.0 </string>
+        <string name="lblVisit">Visit</string>
+        <string name="lblSupport">Support</string>
+        <string name="lblCopyRight">2020 ©, App Lock Pro - All rights reserved.</string>
+        <string name="lblnewsoftwarewebsite"></string>
+        <string name="lblsupportnewsoftware"></string>
+        <string name="selectwallettype">Select Wallet Type</string>
+        <string name="miscellaneous">Miscellaneous</string>
+        <string name="documents">Documents</string>
+        <string name="lblbankaccount">Bank Account</string>
+        <string name="lblhealthandhygiene">Health and Hygiene</string>
+
+        <string name="cancel">Cancel</string>
+
+        <string name="lbl_Moveto">Move To</string>
+
+        <string name="alert_dialog_file_deletecontacts">Please select contact(s) to Delete.</string>
+
+        <string name="lbl_Enter_pin">Enter PIN</string>
+        <string name="lbl_Enter_Pattern">Enter Pattern</string>
+        <string name="enter_password">Enter password...</string>
+
+        <color name="link_color">#4f769d</color>
+        <color name="transparent_color">#ffffff</color>
+        <color name="White">#ffffff</color>
+        <color name="rate_dialog_back_color">#97bee7</color>
+        <color name="yellow">#ffd800</color>
+        <color name="lightyellow">#80ffd800</color>
+        <color name="gray">#e0e0e0</color>
+
+        <!-- Advance Settings -->
+        <string name="lblAdvanced_Settings_lbl">Advanced Settings</string>
+        <string name="lblAdvanced_Lock">Advanced Lock</string>
+        <string name="lblthumb_lock">1) Thumb Lock</string>
+        <string name="lblmsg_lock">2) Message Lock</string>
+
+        <string name="lblLockNewApp">Lock the new app</string>
+        <string name="lblLockNewAppDesc">After you installed the new app, you can one tap to lock the app.</string>
+
+        <string name="lblDelayToLock">Delay to lock</string>
+        <string name="lblDelayToLockDesc">Re-lock is not required when returning from a brief exit</string>
+
+        <string name="lblDelaytimelimit">Delay time limit</string>
+        <string name="lblFifteenSeconds">15 Seconds</string>
+        <string name="lbl30Seconds">30 Seconds</string>
+        <string name="lbl1minute">1 minute</string>
+        <string name="lbl3minutes">3 minutes</string>
+        <string name="lbl5minutes">5 minutes</string>
+        <string name="lblUntilscreenislocked">Until screen is locked</string>
+
+        <!--    <string name="lblforgotpassword"><u>Forgot password?</u></string>-->
+
+        <color name="color_text_action_bar">#fff</color>
+
+        <color name="AlbumNameColor">#005da3</color>
+
+        <color name="HighlightColor">#00FF00</color>
+
+
+        <string name="lblWalletAlertDialog">Please Note:\nYour card-related/financial data is not shared or stored on any server. Your card-related details are statically stored in your phone.</string>
+        <string name="lblCheckboxWwalletAlertDialog">Don\'t show this next time</string>
+
+        <!-- Bank Account -->
+        <string name="lblcardname">Card Name</string>
+        <string name="lblbankname">Bank Name:</string>
+        <string name="lblaccountno">Account No:</string>
+        <string name="lblAccountHolder">Account Holder:</string>
+        <string name="lblAccountType">Account Type:</string>
+        <string name="lblPIN">PIN:</string>
+        <string name="lblEmail">Email</string>
+        <string name="lblMotherName">Mother\'s Name</string>
+
+        <string name="lblSortCode">Sort Code</string>
+        <string name="lblSwiftCode">Swift Code</string>
+        <string name="lblABARoutingNo">ABA/Routing No</string>
+        <string name="lblPIN2">PIN2</string>
+        <string name="lblURL">URL</string>
+        <string name="lblCustom1">Custom1</string>
+        <string name="lblCustom2">Custom2</string>
+        <string name="lblCustom3">Custom3</string>
+        <string name="lblCustom4">Custom4</string>
+        <string name="lblCustom5">Custom5</string>
+
+        <!-- Business Card -->
+        <string name="lblname">Name</string>
+
+        <string name="lblCell">Cell</string>
+        <string name="lblTelephone">Telephone</string>
+        <string name="lblFax">Fax</string>
+        <string name="lblAddress">Address</string>
+
+        <string name="lblCellView">Cell:</string>
+        <string name="lblEmailView">Email:</string>
+
+        <string name="about">About</string>
+        <string name="introduction">Introduction</string>
+
+        <string name="Visit_title">Visit</string>
+        <string name="Visit_value"></string>
+
+        <string name="Support_title">Support</string>
+        <string name="Support_value">cedeno.fidel@gmail.com</string>
+
+        <string name="lbl_facebook">Facebook</string>
+        <string name="lbl_google_plus">Google Plus</string>
+        <string name="lbl_twitter">Twitter</string>
+
+        <!-- Business Info -->
+        <string name="lblCompanyName">Company Name</string>
+        <string name="lblEstablishedDate">Established Date</string>
+        <string name="selectdate">Select Date</string>
+        <string name="lblRating">Rating</string>
+        <string name="lblBusinessStatus">Business Status</string>
+        <string name="lblRewards">Rewards</string>
+        <string name="lblMediaResponse">Media Response</string>
+        <string name="lblProductRating">Product Rating</string>
+
+        <!-- Credit Card -->
+        <string name="lblProviderName">Provider Name</string>
+        <string name="lblCardNumber">Card Number</string>
+        <string name="lblExpirationDate">Expiration Date</string>
+        <string name="lblNameOnCard">Name On Card</string>
+        <string name="lbl3DigitCVC">3-Digit-CVC#</string>
+        <string name="lblIssuingDate">Issuing Date</string>
+        <string name="lblPassword">Password</string>
+        <string name="lblStartDate">Start Date</string>
+        <string name="lblPhoneNo">Phone No</string>
+        <string name="lblUsername">Username</string>
+
+        <string name="lblExpirationDateView">Expiration Date:</string>
+
+        <!-- General Purpose -->
+        <string name="lbltitleGeneralPurpose">Title</string>
+        <string name="lblCustom6">Custom6</string>
+        <string name="lblCustom7">Custom7</string>
+        <string name="lblCustom8">Custom8</string>
+        <string name="lblCustom9">Custom9</string>
+        <string name="lblCustom10">Custom10</string>
+
+        <!-- Health and Hygiene -->
+        <string name="lblCardTitle">Card Title</string>
+        <string name="lblIDNumber">ID Number</string>
+        <string name="lblBloodGroup">Blood Group</string>
+        <string name="lblPlan">Plan</string>
+
+
+        <string name="lblIDNumberView">ID Number:</string>
+
+        <!-- ID Card -->
+        <string name="lblCardTitleidcard">Card Title</string>
+        <string name="lblCountryOrgidcard">Organization</string>
+        <string name="lblIDNoidcard">ID No</string>
+
+        <string name="lblCounty">Country</string>
+
+
+        <!-- Lisense -->
+        <string name="lblLicenseHolder">License Holder</string>
+        <string name="lblLicenseNumber">License Number</string>
+        <string name="lblCityLocation">City/Location</string>
+        <string name="lblDateIssued">Date Issued</string>
+
+
+        <string name="lbl_NIC_oranyNo">N.I.C or any No</string>
+
+        <string name="lblStateProvince">State/Province</string>
+        <string name="lblClass">Class</string>
+        <string name="lblPhoneNumber">Phone Number</string>
+
+
+        <string name="lblLicenseHolderView">License Holder:</string>
+        <string name="lblLicenseNumberView">Driver\'s License Number:</string>
+        <string name="lblDateIssuedView">Date Issued:</string>
+
+        <!-- Passport -->
+        <string name="lblGivenName">Given Name(s)</string>
+
+        <string name="lblPassportNumber">Passport No</string>
+        <string name="lblDateofIssue">Date of Issue</string>
+        <string name="lblDateofExpiry">Date of Expiry</string>
+        <string name="lblGender">Gender</string>
+        <string name="lblDateofBirth">Date of Birth</string>
+        <string name="lblPlaceofBirth">Place of Birth</string>
+        <string name="lblNationality">Nationality</string>
+        <string name="lblAuthority">Authority</string>
+        <string name="lblType">Type</string>
+
+        <string name="lblGivenNameView">Given Name(s):</string>
+        <string name="lblPassportNumberView">Passport No:</string>
+        <string name="lblDateofIssueView">Date of Issue:</string>
+        <string name="lblDateofExpiryView">Date of Expiry:</string>
+
+        <!-- Bank Account View -->
+        <string name="lblaccountnoview">Account No:</string>
+        <string name="lblAccountHolderview">Acc Holder:</string>
+        <string name="lblAccountTypeview">Acc Type:</string>
+        <string name="lblPINview">PIN:</string>
+        <string name="lblSurnameview">Surname:</string>
+        <string name="lblnullview">-------</string>
+
+
+        <string name="lblInfectionAllergy">Infection Allergy</string>
+        <string name="lblHealthNo">Health No</string>
+        <string name="lblEmergencyNo">Emergency No</string>
+
+
+        <string name="lblmore">More</string>
+        <string name="lblaudioplayer">Audio Player</string>
+
+        <color name="securecallad_title">#ee5c5d</color>
+        <color name="securecallad_title2">#434447</color>
+
+        <string name="walletsFolders">Wallets</string>
+
+        <!-- Contacts   -->
+
+        <string name="contactgroups">Contacts</string>
+        <string name="contactGroups">Contact Groups</string>
+
+        <string name="lbldextopproducts">Desktop Products</string>
+        <string name="btnshare">If you like this app, show us some love.</string>
+        <string name="lblfamily">Family</string>
+        <string name="lblfriend">Friends</string>
+        <string name="lblGroupTitle">Group Name</string>
+
+        <string name="lblFirstname">First name</string>
+        <string name="lblSurname">Surname</string>
+        <string name="lblCompany">Company</string>
+        <string name="lblMiddlename">Middle name</string>
+        <string name="lblNickname">Nick name</string>
+        <string name="lblTitle">Title</string>
+        <string name="lblSuffix">Suffix</string>
+
+        <string name="lblMobile">Mobile</string>
+        <string name="lblMobile2">Mobile2</string>
+        <string name="lblHome">Home</string>
+        <string name="lblHome2">Home2</string>
+        <string name="lblWork">Work</string>
+        <string name="lblWork2">Work2</string>
+
+        <string name="lblHomeFax">HomeFax</string>
+        <string name="lblWorkFax">WorkFax</string>
+
+
+        <string name="lblPersonal">Personal</string>
+
+        <string name="lblOther">Other</string>
+
+        <string name="lblStreet">Street</string>
+        <string name="lblTownCity">Town/City</string>
+        <string name="lblCountry">Country</string>
+        <string name="lblPostcode">Postcode</string>
+        <string name="lblCountryRegion">Country/Region</string>
+
+
+        <string name="lblWebsite">Website</string>
+        <string name="lblBirthDay">BirthDay</string>
+        <string name="lblAnniversary">Anniversary</string>
+        <string name="lblSignificantother">Significant other</string>
+        <string name="lblChildren">Children</string>
+        <string name="lblOfficelocation">Office location</string>
+        <string name="lblJobTitle">Job Title</string>
+        <string name="lblNotes">Notes</string>
+
+
+        <string name="lbl_Browser">Internet Browser</string>
+        <string name="lbl_HomeScreen">Home Screen</string>
+
+        <string name="lblwifidetectederror">No WiFi connection detected please turn OFF the Airplane Mode and turn ON your WiFi</string>
+        <string name="lblconnectsamepc">Also make sure that your pc/mac is also connected on same WiFi before transfer your files</string>
+        <string name="lblcheckconnection">Please check your internet connection if still cannot access files on your PC/Mac</string>
+
+
+        <string name="lblAirplaneMode">Airplane Mode</string>
+        <string name="lblWifi">WiFi</string>
+        <string name="lblPCMAC">PC / MAC</string>
+        <string name="lblurlmsg">Enter this URL in your computer\'s browser</string>
+        <string name="lblWebService">Web Server</string>
+        <string name="MsgPasswordInBrowser">Enter Password for Vault Encryptor in the browser </string>
+        <string name="MsgAddAccessfiles">Add / Access files easily </string>
+
+
+        <string name="lbl_more_Hack_Attempts">Intruder Selfie</string>
+        <string name="lbl_No_Hackattempt">No Intruder selfie(s) yet</string>
+
+        <string name="lbl_more_Hack_Attempts_btn_Delete">Delete</string>
+        <string name="lbl_more_Hack_Attempts_btn_Select_All">Select All</string>
+
+        <string name="lblabout">About</string>
+
+        <string name="lblsetting">Settings</string>
+        <string name="lblhelp">Help</string>
+
+        <string name="lblLoginOptions">Login Options</string>
+        <string name="lblLoginOptionsDesc">Setup a password, pin or pattern.</string>
+        <string name="lblTopLoginOption">Choose your Login Option</string>
+
+        <string name="lblforgotpassword"><u>Forgot password?</u></string>
+        <string name="lbl_Forgot_pin"><u>Forgot PIN?</u></string>
+        <string name="lbl_Forgot_Pattern"><u>Forgot Pattern?</u></string>
+
+        <string name="lblsetting_SecurityCredentials_SetyourPassword">Set New Password</string>
+        <string name="lblsetting_SecurityCredentials_SetyourPin">Set New PIN</string>
+
+
+        <string name="lblLoginOptionPassword">Password</string>
+        <string name="lblLoginOptionPin">Pin</string>
+        <string name="lblLoginOptionPattern">Pattern</string>
+
+        <string name="lbldecoypasswordhead">Decoy Mode</string>
+        <string name="lblbackuppasswordhead">Recover Security Lock</string>
+
+        <string name="lbl_set_decoy_password">Set Decoy Password</string>
+        <string name="lbl_set_decoy_pin">Set Decoy PIN</string>
+        <string name="lbl_set_decoy_pattern">Set Decoy Pattern</string>
+
+        <string name="lbl_enter_decoy_password">Enter Decoy Password</string>
+        <string name="lbl_enter_decoy_PIN">Create Decoy PIN</string>
+
+        <string name="lbl_confirm_decoy_password">Confirm Decoy Password</string>
+        <string name="lbl_confirm_decoy_pin">Confirm Decoy PIN</string>
+
+        <string name="toast_securitycredentias_set_sucess_password">Password Set Successfully</string>
+        <string name="toast_securitycredentias_set_sucess_pin">PIN Set Successfully</string>
+        <string name="toast_securitycredentias_set_sucess_password_decoy">Decoy password set successfully</string>
+        <string name="toast_securitycredentias_set_sucess_pin_decoy">Decoy PIN Set Successfully</string>
+
+        <string name="lbl_Password_doesnt_match">Password doesn\'t match</string>
+        <string name="lbl_Pin_doesnt_match">PIN doesn\'t match</string>
+        <string name="lbl_Password_Limit">Password must be atleast 4 characters</string>
+        <string name="lbl_Pin_Limit">PIN must be atleast 4 digits.</string>
+        <string name="lbl_password_lenth_less_limit">Password must be less than 17 characters</string>
+        <string name="lbl_pin_lenth_less_limit"> PIN must be less then 17 digits</string>
+
+        <string name="lblbackupsecurityactivitydesc">Note: An email will be sent to you immediately, incase you forgot your security lock.</string>
+
+
+        <string name="lbluninstallfolderlockhead">Uninstall Vault Encryptor</string>
+        <string name="lbluninstallprotecthead">Uninstall Protection</string>
+
+        <string name="lblsetting_StorageOptions">Storage Options</string>
+        <string name="lblsetting_StorageOptionsDesc">Lock your data in phone memory or SD card.</string>
+
+        <string name="lblsetting_StealthMode">Stealth Mode (Hide Icon)</string>
+        <string name="lblsetting_Stealth_Mode_Description">If you activate stealth mode, the launch icon will be totally hidden i.e. nobody can detect that the app is installed.\n\n To run the app, dial *6666 by using phone’s dialer and so press call.\n\n The hidden icon feature is going to be applied once rebooting the phone.\n\n</string>
+
+        <string name="lblsetting_SecurityCredentials_Password">Password</string>
+        <string name="lblsetting_SecurityCredentials_Pin">PIN</string>
+        <string name="lblsetting_SecurityCredentials_Pattern">Pattern</string>
+
+        <string name="lblsetting_SecurityCredentials_setpassword_Cancel">Cancel</string>
+        <string name="lblsetting_SecurityCredentials_setpassword_Empty"></string>
+
+        <string name="lblsetting_SecurityCredentials_topbaar_SelectSecurityCredentials">Select Security Locks</string>
+        <string name="lblsetting_SecurityCredentials_recoery_email_activity_description">In case of forgot security lock, an auto generated email will be sent to your set email address</string>
+
+
+        <string name="lbldecoypassworddesc">Fake login deters authorized users.</string>
+
+        <string name="lblsetting_SecurityCredentials_ConfirmYourPassword">Confirm current Password</string>
+        <string name="lblsetting_SecurityCredentials_ConfirmYourPin">Confirm current PIN</string>
+        <string name="lblsetting_SecurityCredentials_ConfirmYourPattern">Confirm current Pattern</string>
+
+        <string name="lbl_show_pin">Show PIN</string>
+        <string name="lbl_show_password">Show password</string>
+
+        <string name="lblsetting_SecurityCredentials_Confirm_Ok">Ok</string>
+        <string name="lblsetting_RecoveryofCredentials_email_hint">Enter email…</string>
+
+        <string name="lblpleaseentermasterpassword">Please enter master password:</string>
+        <string name="lblpleasedecoypassword">Please enter decoy account password:</string>
+        <string name="lblpleaseredecoypassword">Please re-enter decoy account password:</string>
+
+        <string name="lblmsgfordecoypassword">Note: Decoy Password will only work if you have set password on login.</string>
+
+        <string name="lblbackupemail">Your backup email is</string>
+
+        <string name="lbluninstallprivileges">Uninstall privileges</string>
+
+        <string name="lblpleaseentermasterpasswordcus">Please enter master password.</string>
+
+        <string name="alert_dialog_contact_import">Please select contact(s) to import.</string>
+
+        <string name="alert_dialog_contact_sms">Please select contact(s) to sms.</string>
+
+        <string name="msguninstall">You can set enable or disable uninstall privileges. Due to this service no one can uninstall or remove this app without your permission.</string>
+
+        <string name="lblstealth_mode_main_des">Hides launch icon of Vault Encryptor.</string>
+
+        <string name="lbl_KitKat_StorageOption_Alert">Sorry, you cannot change your storage to SDcard, as Google has implemented new policies for 3rd party app to access SDcard on KitKat devices.</string>
+        <string name="lbl_Lollipop_StorageOption_Alert">Sorry, you cannot change your storage to SDcard, as Google has implemented new policies for 3rd party app to access SDcard on Lollipop devices.</string>
+
+
+        <string name="lblUnhideDataBeforeUninstallFolderlock">You have some data locked in Vault Encryptor! It is necessary for you to unhide it before uninstalling this app to prevent loss of your data.\n\nPlease tap "Unhide" button to unhide all your data locked in Photos, Videos, Music, Documents and Miscellaneous.</string>
+
+
+        <string name="lblUnistallFolderlock">Your data has been unprotected. It is now safe for you to uninstall Vault Encryptor. </string>
+
+        <string name="alert_dialogTopStorageOption">Select Storage Location</string>
+        <string name="alert_dialog_phone_memory">Phone Memory</string>
+        <string name="alert_dialog_sd_card">SD Card</string>
+
+        <string name="lblstorageoptiondialogdesc">Please select the storage location where you want to lock your data.</string>
+
+        <string name="lblstorageoptiondialognote">Note: You can change later your Storage Location from Settings.</string>
+
+        <string name="backup_emildilog_title"> Enter email address to recover security lock</string>
+        <string name="backup_emildilog_desctitle">Warning:</string>
+        <string name="backup_emildilog_desc">If you don\'t set email address here, then your password will not be recovered. Any time you can set or change email address from Recover Security Lock in Settings.</string>
+
+        <string name="Unhide_error">Some Error Occured in Unhiding.</string>
+        <string name="StorageLess_error">You dont have sapce.</string>
+        <string name="Phonememoryfull_error">Your phone memory is full.</string>
+
+        <string name="lbl_data_recovery">Data Recovery</string>
+        <string name="lbl_data_recovery_desc">Recover your previously lost data in Vault Encryptor.</string>
+
+        <string name="recovery_alert_dialog_description">You can recover your lost data which was locked in your old Vault Encryptor and you forgot to unhide that data. \nNote: This feature will be effective only on lost data which was locked in Vault Encryptor v1.3 and above.</string>
+
+        <string name="lblcloudhead">Cloud Backup</string>
+        <string name="cloud">Cloud</string>
+        <string name="lblclouddesc">Sync your locked data to your Cloud account.</string>
+
+        <string name="lbl_DataRecover_Recover">Recover</string>
+
+        <!-- Cloud For All File Types -->
+        <string name="lbl_SignIn">Sign In</string>
+        <string name="lbl_SignOut">Sign Out</string>
+
+        <string name="lblpanic_switchdesc">Quickly switches to other apps, prevents snooping.</string>
+        <string name="lblFlick">Flick</string>
+        <string name="lblShake">Shake</string>
+        <string name="lblPalmOnScreen">Palm On Screen</string>
+        <string name="lblSwitchApp">Switch App to\:</string>
+
+        <string name="lblsetting_Setting_Panic_Switch_Activity_Descr">Panic switch system intently switches to other app using motion gesture to avoid interfering eyes.</string>
+
+        <string name="lbl_cloud_backup_title">Cloud Backup</string>
+
+
+        <string name="dropbox_Photos">Photos Backup</string>
+        <string name="dropbox_Videos">Videos Backup</string>
+        <string name="dropbox_Documents">Documents Backup</string>
+        <string name="dropbox_Miscellaneous">Miscellaneous Backup</string>
+        <string name="dropbox_Audios">Audios Backup</string>
+
+        <string name="lblcloud_backup">Cloud Backup</string>
+
+        <string name="lbl_cloud_login_desc1">If you end up losing or damaging your Smartphone tomorrow, what would you do? No worries, you always have the option to back-up your photos, videos, music and important documents on a cloud backup service. Using a cloud back-up service, your backed-up data can always be restored in cases of such unfortunate situations.</string>
+        <string name="lbl_cloud_login_desc2">Store your stuff in Dropbox and securely access your files from anywhere. Dropbox basic account provides users with 2GB of free storage.</string>
+
+        <string name="lblpackedfulloffeatures">Packed full of new and exclusive</string>
+        <string name="lblfeatures">features!</string>
+        <string name="lbl_folderlockpro">Vault Encryptor Pro</string>
+
+        <string name="lbl_folderlockpro_whygetfolderlockpro">Why get Vault Encryptor Pro?</string>
+
+        <string name="lbl_folderlockpro_feature_Cloudbackup">Cloud Backup</string>
+        <string name="lbl_folderlockpro_feature_PanicSwitch">Panic Switch</string>
+        <string name="lbl_folderlockpro_feature_StealthMode">Stealth Mode</string>
+        <string name="lbl_folderlockpro_feature_SecureBrowser">Secure Browser</string>
+        <string name="lbl_folderlockpro_feature_AppLock">AppLock</string>
+        <string name="lbl_folderlockpro_feature_AdFree">Ad Free</string>
+        <string name="lbl_folderlockpro_feature_AllFeatures">All features of Vault Encryptor (Free)</string>
+
+        <string name="lblfolderlockpro_ad_why_get"><u>Why get Vault Encryptor Pro?</u></string>
+        <string name="lblfolderlockpro_Free">Free</string>
+        <string name="lblfolderlockpro_Pro">Pro</string>
+
+        <string name="lblfolderlockpro_f1">Panic Switch</string>
+        <string name="lblfolderlockpro_f2">Stealth Mode </string>
+        <string name="lblfolderlockpro_f3">Cloud Backup</string>
+        <string name="lblfolderlockpro_f4">Ads free</string>
+        <string name="lblfolderlockpro_f5">Photo</string>
+        <string name="lblfolderlockpro_f6">Video</string>
+        <string name="lblfolderlockpro_f7">Audio</string>
+        <string name="lblfolderlockpro_f8">Document</string>
+        <string name="lblfolderlockpro_f9">Secure Wallet</string>
+        <string name="lblfolderlockpro_f10">Contacts</string>ing>
+
+        <string name="lblsetting_SecurityCredentials_Newpassword">Enter new password</string>
+        <string name="lblsetting_SecurityCredentials_Confirmpassword">Confirm new password</string>
+
+        <string name="lblsetting_SecurityCredentials_Newpin">Create new PIN</string>
+        <string name="lblsetting_SecurityCredentials_Confirmpin">Confirm new PIN</string>
+
+        <string name="lblsetting_SecurityCredentials_Setpattern_Drawnewpattern">Draw new pattern</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Cancel">Cancel</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Continue">Continue</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Done">Done</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Confirm">Confirm</string>
+
+        <string name="lblsetting_SecurityCredentials_Setpattern_Patternrecorded">Pattern recorded</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Retry">Retry</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Connectatleast4dots.Tryagain">Connect at least 4 dots. Try again</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Newpatternrecorded">New pattern recorded</string>
+
+        <string name="toast_forgot_recovery_Success_Password">Sending Backup password...</string>
+        <string name="toast_forgot_recovery_Success_Pin">Sending Backup PIN...</string>
+        <string name="toast_forgot_recovery_Success_Pattern">Sending Backup pattern...</string>
+
+        <string name="toast_forgot_recovery_fail_Password">You have not set your Recovery email address</string>
+        <string name="toast_forgot_recovery_fail_Pin">You have not set your Recovery email address</string>
+        <string name="toast_forgot_recovery_fail_Pattern">You have not set your Recovery email address</string>
+
+        <string name="toast_connection_error">Internet connection is not available</string>
+
+        <string name="toast_securitycredentias_set_decoy_fail_password">Decoy password cannot be as same as Master password.</string>
+        <string name="toast_securitycredentias_set_decoy_fail_pin">Decoy PIN cannot be as same as Master Pin.</string>
+        <string name="toast_securitycredentias_set_decoy_fail_pattern">Decoy pattern cannot be as same as Master pattern.</string>
+
+        <string name="toast_forgot_recovery_Success_Password_sent">Password has been Sent</string>
+        <string name="toast_forgot_recovery_Success_Pin_sent">PIN has been Sent</string>
+        <string name="toast_forgot_recovery_Success_Pattern_sent">Pattern has been Sent</string>
+
+        <string name="lblsetting_SecurityCredentials_Setpasword_Tryagain">Wrong password, try again</string>
+        <string name="lblsetting_SecurityCredentials_Setpin_Tryagain">Wrong PIN, try again</string>
+        <string name="lblsetting_SecurityCredentials_Setpattern_Tryagain">Wrong pattern, try again</string>
+        <!-- <string name="lblfolderlockpro_f5">Contacts</string>
+                <string name="lblfolderlockpro_f6">Recorder</string>
+                <string name="lblfolderlockpro_f7">Notes</string>
+                <string name="lblfolderlockpro_f8">Miscellaneous</string>
+                <string name="lblfolderlockpro_f9">File Transfer</string>
+                <string name="lblfolderlockpro_f10">Login Pattern</string>
+                <string name="lblfolderlockpro_f11">Hack Attempts</string>
+                <string name="lblfolderlockpro_f12">Fake Login(decoy mode)</string>
+                <string name="lblfolderlockpro_f13">Panic Switch</string>
+                <string name="lblfolderlockpro_f14">Stealth Mode </string>
+                <string name="lblfolderlockpro_f15">Cloud</string>
+                <string name="lblfolderlockpro_f16">Ads free</string> -->
+
+        <!-- <string name="lblFeature9">Wifi Transfer</string> -->
+        <string name="lbl_howtolockphotoalbum">How to lock photos.</string>
+        <string name="lbl_howtolockvideoalbum">How to lock Videos.</string>
+        <string name="lbl_howtolockphotovideo">How to Lock Photos/Videos with in App’s gallery.</string>
+        <string name="lbl_howtolockcontacts">How to add secured contact(s) in Contacts.</string>
+        <string name="lbl_howtosendprivatesms">How to send private SMS to locked contact(s).</string>
+        <string name="lbl_howtocreatenote">How to create secret note(s) in Notes.</string>
+        <string name="lbl_howtoaddaudio">How to add audio file(s) in Audios.</string>
+        <string name="lbl_howtoadddocuments">How to add document file(s) in Documents.</string>
+        <string name="lbl_howtoaddmiscellaneous">How to add miscellaneous file(s) in Miscellaneous.</string>
+        <string name="lbl_howtocreatecardsinwallet">How to create card(s) in Wallet.</string>
+        <string name="lbl_howtounlockordelete">How to unlock or delete File(s).</string>
+        <string name="lbl_howtosetstealthmode">How to set stealth mode.</string>
+        <string name="lbl_howtosyncloud">How to Sync data on cloud.</string>
+
+        <string name="lblfolderlockpro_get_it_now">Get it now!</string>
+
+        <string name="lblmoreprodcuts_checkout">Check out our other latest products... </string>
+        <string name="lblmoreprodcuts_OurMoreProd">Desktop Products</string>
+
+        <!--  <string name="lblmoreprodcuts_Product1">Vault Encryptor Pro </string>
+                <string name="lblmoreprodcuts_Product2">Hide SMS and Call Recoder</string>
+                <string name="lblmoreprodcuts_Product3">Secure Call and SMS Pro</string> -->
+
+        <string name="search_hint">Search</string>
+        <string name="lblmoreprodcuts_Product1">App Lock and Gallery Vault</string>
+        <string name="lblmoreprodcuts_Product2">Hide SMS and Call Recoder</string>
+        <string name="lblmoreprodcuts_Product3">Speaking SMS &amp; Call Announcer</string>
+        <string name="lblmoreprodcuts_Product4">App Lock and Gallery Vault Pro</string>
+        <string name="lblmoreprodcuts_Product5">Hide SMS and Call Recoder Pro</string>
+        <string name="lblmoreprodcuts_Product6">Speaking SMS &amp; Call Announcer Pro</string>
+
+
+        <!-- Start Secure Call and SMS free Add Strings -->
+        <string name="lbl_securecallandsmsfree">Secure Call and SMS</string>
+        <string name="lblDynamicallysecure_securecallandsmsfree">Dynamically secure your contacts,</string>
+        <string name="lblmessages_securecallandsmsfree">messages, call logs and call recordings.</string>
+        <string name="lbl_securecallandsmsfree_feature_Point1">Add new secured contact or copy / move contacts from phone</string>
+        <string name="lbl_securecallandsmsfree_feature_Point2">Make private calls or receive calls from secured contacts within the app</string>
+        <string name="lbl_securecallandsmsfree_feature_Point3">Private call logs in app (keeps no history in phone call logs)</string>
+        <string name="lbl_securecallandsmsfree_feature_Point4">Send and receive SMS from secured contacts</string>
+        <string name="lbl_securecallandsmsfree_feature_Point5">Auto call recording in secure mode</string>
+        <string name="lbl_OurNewApp"> <u>Our New App</u></string>
+        <!-- End Secure Call and SMS free Add Strings -->
+
+
+        <color name="colorfolderlockpro_add">#d3e1f0</color>
+        <color name="colorfolderlockpro_text">#004285</color>
+        <color name="colorFolderLockproNoticelbl">#049500</color>
+        <color name="lightbluecolor">#004a81</color>
+        <color name="color_mp_list">#eeeeee</color>
+        <color name="color_mp_list_btn">#d6d6d6</color>
+
+        <string name="Version_2.1_vtitle">v2.1.0\n* Bugs resolved.</string>
+        <string name="Version_1.4.2_vtitle">v1.4.2\n* Reported bugs fixed.</string>
+        <string name="Version_1.4.3_vtitle">v1.5\n* Now "Data Recovery" feature is free.\n* InApp Sharing option. \n* Repoted bug fixed.</string>
+        <string name="Version_1.5.21_vtitle">v1.5.21\n* Minor bugs fixed.</string>
+        <string name="Version_1.5.30_vtitle">v1.5.30\n* Android 5.0 Lollipop supported.\n* Major bugs fixed.</string>
+        <string name="Version_1.6_vtitle">v1.6\n* Lollipop\'s camera issue fixed.</string>
+        <string name="Version_2.0_vtitle">v2.0\n* New and enhanced user interface.\n* Material graphics.\n* Improved usability.\n* Fixed bugs.\n* Added new feature: Gallery.\n* Improved features: Audios, Notes, Wallets and Contacts.\n* Added In-App purchase.\n* Enhanced Help.
+
+</string>
+
+
+        <string name="share_fl">Download this amazing app, Vault Encryptor. It is not just a security app, but a comprehensive data security solution for Android ! market://details?id=com.newsoftwares.folderlock_v1</string>
+
+        <string name="folderlockpro_released_notice">&lt;u>Get Vault Encryptor Pro!&lt;/u></string>
+
+        <string name="pro_app_detail1">Buy <b>Premium Pack</b></string>
+        <string name="pro_app_detail2">To get unlimited access to all features without ads, buy \n \" Premium Pack \" </string>
+
+
+        <!-- Photos -->
+        <string name="lbl_Photos_Album_no_Album">No album</string>
+        <string name="lbl_default_album_notrenamed">Default album cannot be renamed</string>
+        <string name="lbl_default_album_notdeleted">Default album cannot be deleted</string>
+        <string name="lbl_Create_Album">Create Album</string>
+        <string name="lbl_Create_Album_hint">Enter album name</string>
+
+        <string name="lbl_Create_Album_Success">Album created successfully</string>
+        <string name="lbl_Rename_Album">Rename Album</string>
+        <string name="lbl_Delete_Album">Delete Album</string>
+
+        <string name="lbl_SetDecoyPassword">Decoy Password</string>
+        <string name="lbl_SetDecoyPIN">Decoy PIN</string>
+        <string name="lbl_SetDecoyPattern">Decoy Pattern</string>
+
+        <string name="lbl_Create_Album_please_enter">Please enter album name</string>
+        <string name="lbl_Create_Album_Success_renamed">Renamed successfully</string>
+        <string name="lbl_Create_Album_confirm_delete">Are you sure you want to delete this album?</string>
+        <string name="lbl_delete_success">Deleted successfully</string>
+
+        <string name="lbl_import_photo_album_select_photo_topbaar">Select Photos</string>
+        <string name="lbl_import_photo_album_select_album_topbaar">Select Albums</string>
+
+        <string name="lbl_No_Photos">No photo(s) added yet</string>
+        <string name="toast_unselectphotomsg_import">Please select photo(s) to import</string>
+        <string name="toast_unselectphotomsg_delete">Please select photo(s) to delete</string>
+        <string name="toast_unselectphotomsg_unhide">Please select photo(s) to restore</string>
+        <string name="toast_unselectphotomsg_move">Please select photo(s) to move</string>
+        <string name="toast_unselectphotomsg_share">Please select photo(s) to share</string>
+        <string name="toast_Share_from_gallery_sucess_photo">Photo(s) moved successfully</string>
+        <string name="lbl_No_Gallery_File">No Photo(s) or video(s) added yet</string>
+        <string name="toast_OneAlbum">Please add album to move</string>
+
+
+        <string name="lbl_No_Vodeos">No video(s) added yet</string>
+        <string name="lbl_import_video_album_select_video_topbaar">Select Videos</string>
+        <string name="toast_unselectvideomsg_import">Please select video(s) to import</string>
+        <string name="toast_unselectvideomsg_delete">Please select video(s) to delete</string>
+        <string name="toast_unselectvideomsg_unhide">Please select video(s) to restore</string>
+        <string name="toast_unselectvideomsg_move">Please select video(s) to move</string>
+        <string name="toast_unselectvideomsg_share">Please select video(s) to share</string>
+        <string name="toast_Share_from_gallery_sucess_video">Photo(s) moved successfully</string>
+
+
+        //Docuemts
+        <string name="lbl_No_Documents">No document(s) added yet</string>
+        <string name="lbl_default_folder_notdeleted">Default folder cannot be deleted</string>
+        <string name="lbl_default_folder_notrenamed">Default folder cannot be renamed</string>
+        <string name="lbl_Create_Folder">Create Folder</string>
+        <string name="lbl_Rename_Folder">Rename Folder</string>
+        <string name="lbl_Folder_confirm_delete">Are you sure you want to delete this folder?</string>
+        <string name="lbl_Create_Folder_hint">Enter folder name</string>
+        <string name="lbl_Documents_Folder_no_Folder">No Folder</string>
+        <string name="lbl_Document_please_enter_folder_name">Enter folder name</string>
+        <string name="lbl_import_doc_album_select_doc_topbaar">Select Documents</string>
+
+        <string name="lbl_No_misc">No miscellaneous file(s) added yet</string>
+        <string name="lbl_import_misc_album_select_misc_topbaar">Select Miscellaneous</string>
+        <string name="lbl_import_audio_album_select_audio_topbaar">Select Audio</string>
+        <string name="toast_unselectdocmsg_import">Please select document(s) to import</string>
+        <string name="toast_unselectdocumentmsg_move">Please select document(s) to move</string>
+        <string name="toast_unselectdocumentmsg_share">Please select document(s) to share</string>
+
+        <string name="toast_unselectmiscmsg_import">Please select miscellaneous file(s) to import</string>
+        <string name="toast_unselectmiscmsg_move">Please select miscellaneous file(s) to move</string>
+        <string name="toast_unselectmiscmsg_share">Please select miscellaneous file(s) to share</string>
+
+        <string name="toast_unselectaudiomsg_import">Please select audio file(s) to import</string>
+        <string name="toast_unselectaudiomsg_share">Please select audio file(s) to share</string>
+
+        <!-- For All File Types -->
+        <string name="toast_delete">Deleted Successfully</string>
+        <string name="toast_unhide">Restored Successfully</string>
+        <string name="toast_move">Moved Successfully</string>
+        <string name="toast_share">Shared Successfully</string>
+        <string name="toast_exists">File Already exists</string>
+        <string name="toast_not_exists">File does not exists</string>
+        <string name="toast_saved">Saved Successfully</string>
+        <string name="yes">Yes</string>
+        <string name="no">No</string>
+        <string name="no_videos">No Videos</string>
+        <string name="no_photos">No Photos</string>
+        <string name="no_docs">No Documents</string>
+        <string name="no_misc">No Miscellaneous</string>
+        <string name="no_audio">No Audios</string>
+        <string name="lbl_No_audio">No audio file(s) added yet</string>
+
+        <string name="lbl_Confirm">Confirm</string>
+
+        <string name="lblsetting_RecoveryofCredentials">Recovery of Security Locks</string>
+        <string name="lblsetting_RecoveryofCredentialsDesc">Recover security locks in case you forget it.</string>
+
+        <string name="toast_setting_SecurityCredentials_Setpattern_Patternsetsuccesfully">Pattern set succesfully</string>
+        <string name="toast_setting_SecurityCredentials_Setpattern_Patternsetsuccesfully_decoy">Decoy Pattern set succesfully</string>
+        <string name="toast_setting_SecurityCredentials_Recoveryemailsetsuccesfully">Recovery Email saved succesfully</string>
+        <string name="toast_setting_SecurityCredentials_Recoveryemail_invalid">Please enter valid backup email</string>
+        <string name="toast_setting_SecurityCredentials_Recoveryemail_please_enter">Please enter email address</string>
+        <string name="toast_more_hack_attempts_deleted">Selected Intruder Selfies deleted successfully</string>
+
+
+        <string name="toast_setting_Stealth_Mode_reboot">To hide launch icon from you main screen, please reboot your device.</string>
+        <string name="toast_setting_decoy_none_alert">As you have set no Security Credential on your login, so you cannot activate Decoy Mode.</string>
+
+        <string name="toast_unselectphotomsg_Hackattempts">Please select Intruder Selfies to delete</string>
+
+
+        <string name="lblAlet">SD card permission</string>
+        <string name="lblCheckboxSDCardAlertDialog">Don\'t show this message again.</string>
+        <string name="lblSdCardAlertMsg">Due to limitations, Android Lollipop users need to grant external SD card permission to hide their photos. To give permission go to Settings and choose SD card permissions.</string>
+        <string name="lblSdCardAlertMsgNote">Note: If your device does not support SD card, kindly disregard this message and tap on \'Cancel\'.</string>
+
+        <!-- Share -->
+        <string name="lbl_Move">Move</string>
+        <string name="lbl_SelectAlbum">Select Album</string>
+        <string name="lbl_Share_from_gallery_selectphoto">Select photo album</string>
+        <string name="lbl_Share_from_gallery_selectvideo">Select video album</string>
+
+        <string name="lbl_msg_want_to_set_decoy_pas_ornot">Do you want to set Decoy Password also?</string>
+        <string name="lbl_msg_want_to_set_decoy_pin_ornot">Do you want to set Decoy PIN also?</string>
+        <string name="lbl_msg_want_to_set_decoy_pat_ornot">Do you want to set Decoy Pattern also?</string>
+
+
+
+
+        <string name="toast_Email_Saved">Your Email has been saved in Recovery of Lock.</string>
+        <string name="toast_Invalid_Email"> Email address is invalid.</string>
+        <string name="toast_Enter_Email"> Please enter email address.</string>
+        <string name="toast_Skip">Please set your Email in \"Recovery of Security Lock\" to get your security lock incase you forget your Password, Pattern or PIN.</string>
+
+
+        <!-- Notes -->
+        <string name="empty_note_folder">No note(s) added yet</string>
+        <string name="add_folder">Create Folder</string>
+        <string name="add_folder_hint">Enter Folder Name</string>
+        <string name="my_notes">My Notes</string>
+        <string name="voice_memos">Voice Memos</string>
+        <string name="note_folder_created_successfully">Folder Created Successfully!</string>
+        <string name="note_folder_exists">Folder already exists!</string>
+        <string name="note_file_exists">Note already exists!</string>
+        <string name="note_folder_renamed_successfully">Folder renamed Successfully!</string>
+        <string name="note_folder_deleted_successfully">Folder deleted Successfully!</string>
+        <string name="note_folder_not_deleted">Folder could not be deleted</string>
+        <string name="recording_not_deleted">Can not delete recording</string>
+        <string name="recording_started">Recording started</string>
+        <string name="recording_stoped">Recording completed</string>
+        <string name="please_wait">Please Wait</string>
+        <string name="processing">Processing...</string>
+        <string name="overwrite_audio">Select No to continue with existing recording, select Yes to over-write</string>
+        <string name="delete_note">Are you sure you want to delete this Note ?</string>
+        <string name="delete_notes">Are you sure you want to delete these note(s) ?</string>
+        <string name="discard_changes">Are you sure you want to discard changes?</string>
+        <string name="empty_note">Can not save empty note</string>
+        <string name="empty_note_name">Please enter note name</string>
+        <string name="no_other_folder_exists">Please create a folder first to move note</string>
+
+        <string name="detail">Detail</string>
+        <string name="view_by">View By</string>
+        <string name="tile">Tile</string>
+        <string name="list">List</string>
+        <string name="sort_by">Sort By</string>
+        <string name="name">Name</string>
+        <string name="time">Time</string>
+
+        <!-- menu strings -->
+
+        <string name="search">Search</string>
+        <string name="more_options">More Options</string>
+        <string name="delete_toast">Are you sure you want to Delete </string>
+        <string name="toast_OneFolder">Please add folder to move</string>
+        <string name="title_activity_contact_group">ContactGroupActivity</string>
+        <string name="title_activity_contacts_view">ContactsViewActivity</string>
+        <string name="phone_contacts">Phone Contacts</string>
+        <string name="group_sms">Group SMS</string>
+        <string name="send_sms">Send SMS</string>
+        <string name="my_contacts">My Contacts</string>
+        <string name="business_card">Business Card</string>
+        <string name="business_info">Business Info</string>
+        <string name="credit_card">Credit Card</string>
+        <string name="general_purpose">General Purpose</string>
+        <string name="id_card">ID Card</string>
+        <string name="license">License</string>
+        <string name="passport">Passport</string>
+
+        <string name="lbl_OurApps"> <u>Our Apps</u></string>
+
+        <string name="lblhelp_howtolockphotos">How to lock photos</string>
+
+        <string name="lbl_howtolockphotoscontent1">
+1.	Lock photo(s) from within the Locker.\nA.	Open desired album.\nB.	Tap on the (+) icon, you can lock from\ni)	Device’s Gallery,\nii)	Camera\niii)	Private browser.\n\ni)	Device’s Gallery:\nA.	Tap gallery icon.\nB.	Select desired gallery albums or select desired photos in gallery album.\nC.	Tap the Lock button given in top bar to lock selected photo(s).\n\nii)	Camera:\nA.	Tap camera icon.\nB.	Take a snap and tap save button.\n\niii)	Private Browser:\nA.	Tap private browser icon and browser will open.\nB.	Long tap on a photo and select “Save image” and the photo will be locked directly in the app.
+</string>
+
+        <string name="lbl_howtolockphotoscontent2">
+2.	Lock photos from gallery by using the ‘share’ function.\nA.	Select the photo(s) in gallery you wish to lock.\nB.	Tap on the ‘Share’ icon.\nC.	Now select “Vault Encryptor”.\nD.	Select destination album.
+</string>
+
+
+        <string name="lbl_howtolockvideos">How to lock videos</string>
+        <string name="lbl_howtolockvideoscontent1">
+1.	Lock video(s) from within the Locker.\nA.	Open desired album.\nB.	Tap on the (+) icon, you can lock from\ni)	Device’s Gallery,\nii)	Camera, \niii)Private browser.\n\ni)	Device’s Gallery:\nA.	Tap gallery icon.\nB.	Select desired gallery albums or select desired video(s) in gallery album.\nC.	Tap the Lock button given in top bar to lock selected video(s).\n\nii)	Camera:\nA.	Tap camera icon.\nB.	Record a video and tap save button.\n\niii) Private Browser:\nA.	Tap private browser icon and browser will open.\nB.	Download the desired videos. Downloaded video will be locked directly in the app.
+</string>
+
+        <string name="lbl_howtolockvideoscontent2">
+2.	Lock videos from gallery by using the ‘share’ function.\nA.	Select the video(s) in gallery you wish to lock.\nB.	Tap on the ‘Share’ icon.\nC.	Now select “Vault Encryptor”.\nD.	Select destination album.
+
+</string>
+
+        <string name="lbl_howtolockphotovideoHeading">How to lock Photos/Videos with in App’s gallery</string>
+        <string name="lbl_howtolockphotovideocontent">
+ A.Tap on the (+) icon.\nB.Select photo or video icon.\nC.Select desired gallery albums or select desired photo(s)/video(s) in gallery album.\nD.Tap the Lock button given in top bar to lock selected photo(s)/video(s).
+</string>
+
+        <!--    <string name="lbl_howtoeditphotovideo">How to unlock or delete Photos/Videos</string>
+        <string name="lbl_howtoeditphotovideocontent">
+    Long tap any photo/video, an edit mode will be open.\n\nA.Tap Delete to permanently delete selected photo(s)/video(s).\nB.Tap Unlock to unlock and send selected photo(s)/video(s) back to device’s gallery.\nC.Tap Move and select the destination album, by this selected photo(s)/video(s) will move to the desired album.\nD.Tap Share to share selected photo(s)/video(s) to different social media(s).
+    </string>-->
+
+        <string name="lbl_howtolockcontactsheading">How to add secured contact(s) in Contacts</string>
+        <string name="lbl_howtolockcontactscontent">
+1.Create contact(s) from within the Vault Encryptor.\nA.Open desired folder.\nB.Tap on the (+) icon.\nC.Add contact details and tap Save button on top bar.\n2.Add contact from Phone contacts.\nA.Open desired folder.\nB.Tap Phone Contacts from top bar.\nC.Select contact(s) and tap Import button on top bar.
+
+</string>
+
+        <string name="lbl_howtosendprivatesmsheading">How to send private SMS to locked contact(s)</string>
+        <string name="lbl_howtosendprivatesmscontent">
+A.Open desired folder.\nB.Tap SMS button on top bar.\nC.Select contact(s) and tap SMS button on top bar.\nD.Now enter SMS message and tap Send.
+
+</string>
+
+        <string name="lbl_howtocreatenoteheading">How to create secret note(s) in Notes</string>
+        <string name="lbl_howtocreatenotecontent">
+A.Open desired Folder.\nB.Tap on the (+) icon.\nC.Enter title and note’s content.\nD.Add voice recording by tapping Mic icon, also listen saved recording by tapping Play icon.\nE.Change note’s color by tapping Color button at top bar, select desired color and tap OK.\nF.After all, tap Save button on top bar to save the note.
+
+</string>
+
+        <string name="lbl_howtoaddaudioheading">How to add audio file(s) in Audios</string>
+        <string name="lbl_howtoaddaudiocontent">
+        A.Open desired folder.\nB.Tap on the (+) icon, you can lock from\ni)Phone storage, \nii)Private browser.\ni)Phone Storage:\nA.Tap Phone Storage icon.\nB.Select desired folder or select desired audio(s) in folder.\nC.Tap the Lock button given in top bar to lock selected audio(s). \n\nii)Private Browser:\nA.Tap private browser icon and browser will open.\nB.Download the desired audios. Downloaded audios will be locked directly in the app. \n
+
+</string>
+
+        <string name="lbl_howtoadddocumentsheading">How to add document file(s) in Documents</string>
+        <string name="lbl_howtoadddocumentscontent">
+A.Open desired folder.\nB.Tap on the (+) icon, you can lock from\ni)Phone storage.\nii)Private browser.\n\ni)Phone Storage:\nA.Tap Phone Storage icon.\nB.Select desired folder or select desired file(s) in folder.\nC.Tap the Lock button given in top bar to lock selected file(s).\nii)Private Browser:\nA.Tap private browser icon and browser will open.\nB.Download the desired document file. Downloaded files will be locked directly in the app.
+</string>
+
+        <string name="lbl_howtoaddmiscellaneousheading">How to add miscellaneous file(s) in Miscellaneous</string>
+        <string name="lbl_howtoaddmiscellaneouscontent">
+A.Open desired folder.\nB.Tap on the (+) icon, you can lock from\ni)Phone storage.\nii)Private browser.\n\ni)Phone Storage:\nA.Tap Phone Storage icon.\nB.Select desired folder or select desired file(s) in folder.\nC.Tap the Lock button given in top bar to lock selected file(s).\n\nii)Private Browser:\nA.Tap private browser icon and browser will open.\nB.Download the desired file. Downloaded files will be locked directly in the app.
+</string>
+
+        <string name="lbl_howtocreatecardsinwalletheading">How to create card(s) in Wallet</string>
+        <string name="lbl_howtocreatecardsinwalletcontent">
+A.Open desired folder.\nB.Tap on the (+) icon.\nC.Select card type.\nD.Fill in the required details and tap Save.
+</string>
+
+        <string name="lbl_howtounlockordeleteheading">How to unlock or delete File(s)</string>
+        <string name="lbl_howtounlockordeletecontent">
+Long tap any file, edit mode will be open.\nA.Tap Delete to permanently delete selected file(s).\nB.Tap Unlock to unlock selected file(s).\nC.Tap Move and select the destination folder, by this selected file(s) will move to the desired folder.\nD.Tap Share to share selected file(s) to different social media(s).
+</string>
+
+        <string name="lbl_howtostealthmode">How to set stealth mode</string>
+        <string name="lbl_howtostealthmodecontent">
+A.Tap Stealth Mode icon.\nB.Activate Stealth Mode.\nC.The app’s launcher icon will now disappear from device’s apps list.\nD.To open the app, just dial *6666 and press call from device’s dialer.
+
+</string>
+
+        <string name="lbl_howtosynccloud">How to sync data on cloud</string>
+        <string name="lbl_howtosynccloudcontent">
+A.Open Cloud feature.\nB.Select Photos/Videos/Audios/Documents/Notes.\nC.Their folders will appear, showing number of files to upload or to download.\nD.Tap sync button to sync the device and cloud data.\nE.Now your data is safe on cloud; if your data gets removed from your device then you can restore it from cloud again.
+</string>
+
+        <string name="animatedVewTitle">Vault Encryptor is initializing...</string>
+        <string name="rename_folder">Rename Folder</string>
+        <string name="delete_folder">Delete Folder</string>
+        <string name="delete_group">Delete Group</string>
+        <string name="rename_group">Rename Group</string>
+
+        <string name="title_activity_video_player_fullscreen">VideoPlayerFullscreenActivity</string>
+        <string name="dummy_button">Dummy Button</string>
+        <string name="dummy_content">DUMMY\nCONTENT</string>
+
+        <string name="title_activity_video_play_fullscreen">VideoPlayFullscreenActivity</string>
+
+
+        <string name="no_internet">Internet service not available, Please check your internet connection</string>
+
+
+        <string name="popup_thumb_Lock">To Activate Locked App Using The Thumb Scanner:  Tap twice on the App Lock’s Logo, then long tap on the thumb scanner.</string>
+        <string name="popup_Msg_Lock">To activate locked app using error message: Tap twice on the error message text, then long tap on “OK” button located below the text.</string>
+
+
+        <string name="lbl_Audio_Playlist">No Playlist</string>
+
+        <string name="lbl_AllApps">All Apps</string>
+        <string name="lbl_LockApps">Locked Apps</string>
+        <string name="lbl_no_locked_app">No locked apps</string>
+
+        <string name="sort">Sort</string>
+
+
+        <!-- App Lock Permission dialog -->
+        <string name="lblApplockAlet">Special Permission Required</string>
+        <string name="lblApplockAlet_Desc">In Android 5.1 or above, you are required to provide special permission for App Lock and Gallery Vault app. This will enable you to utilize the app locking feature.</string>
+        <string name="lblApplockAlet_Note">Note: If you don’t grant this application the required permission, you will not be able to lock your apps.</string>
+        <string name="lbl_btn_not_know">Not Now</string>
+
+        <string name="lblsetting_SecurityCredentials_setpassword_Continue">Continue</string>
+        <string name="lblsetting_SecurityCredentials_setpassword_Retry">Retry</string>
+        <string name="lblsetting_SecurityCredentials_setpassword_Ok">OK</string>
+        <string name="settings">Settings</string>
+
+        <string-array name="delayTimeLimit">
+            <item>"Until Screen Locked"</item>
+            <item>"15 Seconds"</item>
+            <item>"30 Seconds"</item>
+            <item>"1 Minute"</item>
+            <item>"3 Minute"</item>
+            <item>"5 Minute"</item>
+
+        </string-array>
+
+        <string-array name="delayTimeLimitValue">
+            <item>"0"</item>
+            <item>"15"</item>
+            <item>"30"</item>
+            <item>"1"</item>
+            <item>"3"</item>
+            <item>"5"</item>
+
+        </string-array>
+
+</resources>

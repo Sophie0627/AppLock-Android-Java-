@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_background"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+
+	<LinearLayout
+		android:id="@+id/ll_fingerprint"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end"
+		android:layout_margin="30dp"
+		android:background="@drawable/selector_fingerprint_cirlce"
+		android:gravity="center">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/fingerprint" />
+
+	</LinearLayout>
+  
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+		  android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    
+    <ImageView
+        	android:id="@+id/iv_menu_feature_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/login_key_icon" />
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+	        <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	            
+	         <TextView
+	                android:id="@+id/lbl_App_Name"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/app_name" 
+	                android:layout_marginLeft="5dip"
+	                android:textStyle="normal"
+	                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+	                android:textSize="28sp"
+	                android:textColor="@color/ColorWhite"
+	                />
+	         
+	          <TextView
+				  android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:visibility="gone"
+	                android:text="@string/version"
+	                android:layout_below="@+id/lbl_App_Name"
+	                android:layout_centerHorizontal="true"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/ColorWhite"
+	                android:textSize="16sp" />
+	            
+	        
+	        </RelativeLayout>
+        
+        </LinearLayout>
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"   
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_marginBottom="25dip"
+        android:orientation="vertical" >
+         
+         <TextView
+           android:id="@+id/txt_wrong_password_pin"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="30dip"
+           android:layout_marginBottom="10dp"
+           android:text="@string/lblsetting_SecurityCredentials_Setpattern_Tryagain"
+           android:textAppearance="?android:attr/textAppearance"
+           android:textColor="@android:color/white"
+           android:textSize="22sp"
+           android:textStyle="normal"
+           android:typeface="normal" />
+
+		 <applock.protect.bit.applock.Security.ConfirmLockPatternViewLogin
+        android:id="@+id/pattern_view"
+        android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+       	android:layout_marginTop="30dip"
+        android:layout_marginBottom="10dip"
+       	android:layout_marginLeft="150dip"
+        android:layout_marginRight="150dip"
+        android:layout_gravity="center"
+        />
+  
+	</LinearLayout>
+    
+<!--     <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />-->
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="80dp"
+        android:orientation="vertical" >
+        
+          <LinearLayout
+			  android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+
+	         <TextView
+	                android:id="@+id/lblforgotpattern"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lbl_Forgot_Pattern"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/ColorWhite"
+	                android:textSize="22sp" />
+
+        </LinearLayout>
+ 
+    </LinearLayout>
+    
+   <FrameLayout
+	        android:id="@+id/camera_preview"
+	        android:layout_width="1px"
+	        android:layout_height="1px" />   
+</LinearLayout>

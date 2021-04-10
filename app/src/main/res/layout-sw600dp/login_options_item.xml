@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingTop="8dp" 
+           android:background="@color/ColorWhite">
+      
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblloginoptionitem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:text="Login option"
+                android:textColor="@color/black_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+             
+        </LinearLayout>
+        
+        <CheckBox
+                android:id="@+id/cbLoginOptionitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_marginRight="15dp"
+                android:button="@drawable/cb_login_options"/>
+          
+    </LinearLayout>
+
+</LinearLayout>

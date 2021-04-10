@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+       <LinearLayout
+          android:id="@+id/ll_hackattemptitem"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+        <com.protect.bit.privatebrowser.hackattepmts.RoundedImageView
+            android:id="@+id/iv_hackattempt_item"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:rotation="270"
+            android:layout_margin="10dip" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lbl_hackattempt_pass_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:singleLine="true"
+                android:layout_marginRight="11dp" 
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/lbl_hackattempt_description_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="11dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/Color_Secondary_Font"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+          <CheckBox
+                android:id="@+id/cb_hackattempt_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxhackattempt"
+             	android:focusable="false"
+             	android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="7dp"/>
+          
+    </LinearLayout>
+    
+
+</LinearLayout>
